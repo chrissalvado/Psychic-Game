@@ -44,6 +44,7 @@ function win() {
 function lost() {
  loses++;
  resetGame();
+ alert('Better luck next time')
 }
 
 function fail(letter) {
